@@ -1,0 +1,107 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+ .nav2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    padding-right: 50px;
+    text-decoration: none;
+
+}  
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.home{
+    background-image: url(Images/zulfugar-karimov-H-_iiXPTf5Y-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 120px;
+    
+} 
+
+   .sec {
+    padding: 50px;
+    text-align: center;
+    height: auto;
+}
+
+
+.card1{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+}
+.btn{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    
+}
+.success{
+background-image: url(Images/drew-beamer-pek8uLQauMk-unsplash.jpg);
+background-size: cover;
+height: auto;
+padding-top: 20px;
+text-align: center;
+}
+.footer{
+    background-color: black;
+    padding: 50px;
+
+    
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 150px;
+}
+.tab{
+padding: 50px;
+margin-left: 550px;
+width: 500px;
+
+}
+.footer1{
+    background-color: white;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.container4{
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+    height: 320px;
+    padding: 50px;
+}
+.content{
+    gap: 100px;
+}
+.dropdown-menu{
+    list-style: none;
+}
+.dropdown{
+    position: relative;
+}

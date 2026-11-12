@@ -48,6 +48,11 @@
     border-radius: 20px;
     padding: 30px;
     background-color: white;
+    transition: all 0.5s ease;
+}
+.card1:hover{
+    transform: scale(1.2);
+
 }
 .btn{
     border-radius: 20px;
@@ -55,7 +60,11 @@
     height: 50px;
     color: white;
     background-color: black;
+    transition: all 0.5s ease;
     
+}
+.btn:hover{
+    transform: scale(1.2);
 }
 .success{
 background-image: url(Images/drew-beamer-pek8uLQauMk-unsplash.jpg);
@@ -67,6 +76,7 @@ text-align: center;
 .footer{
     background-color: black;
     padding: 50px;
+    height: 400px;
 
     
 }
@@ -105,3 +115,6 @@ width: 500px;
 .dropdown{
     position: relative;
 }
+.Message{display: flex;
+flex-direction: column;
+gap: 20px;}
